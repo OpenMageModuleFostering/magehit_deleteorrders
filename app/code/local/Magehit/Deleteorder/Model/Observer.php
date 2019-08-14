@@ -9,7 +9,7 @@ class Magehit_Deleteorder_Model_Observer
         if ($block instanceof Mage_Adminhtml_Block_Widget_Grid_Massaction && $block->getRequest()->getControllerName() == 'sales_order') {
             $block->addItem('delete-order-magehit', array(
                 'label' => '' . Mage::helper('deleteorder')->__('Delete Order(s)'),
-                'url'   => Mage::helper("adminhtml")->getUrl('deleteorderadmin/adminhtml_index/deleteOrders'),
+                'url'   => Mage::helper("adminhtml")->getUrl('adminhtml/deleteorder_deleteorders/deleteOrders'),
             ));
         }
     }

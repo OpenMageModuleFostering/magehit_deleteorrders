@@ -1,5 +1,5 @@
 <?php
-class Magehit_Deleteorder_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action
+class Magehit_Deleteorder_Adminhtml_Deleteorder_DeleteordersController extends Mage_Adminhtml_Controller_Action
 {
     public function deleteOrdersAction()
     {

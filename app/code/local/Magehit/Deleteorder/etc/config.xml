@@ -7,13 +7,13 @@
     </modules>
     <admin>
         <routers>
-            <deleteorderadmin>
-                <use>admin</use>
+            <adminhtml>
                 <args>
-                    <module>Magehit_Deleteorder</module>
-                    <frontName>deleteorderadmin</frontName>
+                    <modules>
+                        <deleteorder before="Mage_Adminhtml">Magehit_Deleteorder_Adminhtml</deleteorder>
+                    </modules>
                 </args>
-            </deleteorderadmin>
+            </adminhtml>
         </routers>
     </admin>
     <adminhtml>
@@ -21,12 +21,12 @@
             <modules>
                 <Magehit_Deleteorder>
                     <files>
-                        <default>Magegiant_Deleteorder.csv</default>
+                        <default>Magehit_Deleteorder.csv</default>
                     </files>
                 </Magehit_Deleteorder>
             </modules>
         </translate>
-
+    
         <events>
             <core_block_abstract_to_html_before>
                 <observers>
