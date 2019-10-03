@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Magehit_DeleteOrrders",
+    "name": "openmage-module-fostering\/magehit_deleteorrders",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Delete Orders version 0.1.1",
     "authors": [
