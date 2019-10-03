@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Magehit_DeleteOrrders",
+    "name": "OpenMageModuleFostering\/Magehit_DeleteOrrders",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Delete Orders version 0.1.1",
     "authors": [
-    {
-        "name": "MageHit",
-        "email": "support@magehit.com"
-    }
-],
+        {
+            "name": "MageHit",
+            "email": "support@magehit.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
